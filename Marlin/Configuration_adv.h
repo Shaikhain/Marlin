@@ -1912,9 +1912,9 @@
 #define LIN_ADVANCE
 #if ENABLED(LIN_ADVANCE)
   //#define EXTRA_LIN_ADVANCE_K // Enable for second linear advance constants
-  #define LIN_ADVANCE_K 0.56    // Unit: mm compression per 1mm/s extruder speed
+  #define LIN_ADVANCE_K 0.30    // Unit: mm compression per 1mm/s extruder speed
   //#define LA_DEBUG            // If enabled, this will generate debug information output over USB.
-  #define EXPERIMENTAL_SCURVE // Enable this option to permit S-Curve Acceleration
+  //#define EXPERIMENTAL_SCURVE // Enable this option to permit S-Curve Acceleration
 #endif
 
 // @section leveling
@@ -3731,7 +3731,7 @@
  */
 
 // Custom Menu: Main Menu
-#define CUSTOM_MENU_MAIN
+//#define CUSTOM_MENU_MAIN
 #if ENABLED(CUSTOM_MENU_MAIN)
   #define CUSTOM_MENU_MAIN_TITLE "Custom Commands"
   #define CUSTOM_MENU_MAIN_SCRIPT_DONE "M117 User Script Done"
